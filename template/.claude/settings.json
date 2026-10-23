@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./node_modules/**)",
+      "Read(./dist/**)",
+      "Read(./build/**)",
+      "Read(./.next/**)",
+      "Read(./coverage/**)",
+      "Read(./package-lock.json)",
+      "Read(./pnpm-lock.yaml)",
+      "Read(./yarn.lock)",
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)"
+    ]
+  }
+}
